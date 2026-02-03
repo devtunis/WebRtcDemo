@@ -1,0 +1,86 @@
+/* Center everything */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Silver cute background */
+  background: linear-gradient(135deg, #ffffff, #a7a1a1, #ece9e9);
+  background-size: 400% 400%;
+  animation: silverShift 15s ease infinite;
+}
+ 
+@keyframes silverShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+/* Dark card container */
+.room-card-dark {
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  width: 320px;
+  border: 1px solid #444; /* subtle silver border */
+}
+
+/* Heading */
+.room-card-dark h2 {
+  margin-bottom: 25px;
+  color: #cfcfcf; /* soft silver text */
+  font-size: 1.6rem;
+}
+
+/* Inputs */
+.room-card-dark input {
+  width: 100%;
+  padding: 14px 15px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  border: 1px solid #555;
+  background: #1f1f1f;
+  color: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.room-card-dark input::placeholder {
+  color: #888; /* silver placeholder */
+}
+
+.room-card-dark input:focus {
+  border-color: #cfcfcf;
+  box-shadow: 0 0 8px rgba(207, 207, 207, 0.3);
+}
+
+/* Button */
+.dark-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #121212;
+  background: #cfcfcf; /* silver button */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dark-button:hover {
+  background: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(207, 207, 207, 0.3);
+}
+
+.dark-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(207, 207, 207, 0.2);
+}
