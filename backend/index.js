@@ -12,7 +12,7 @@ const app = express();
 const httpServer = createServer(app)
 const io  = new Server(httpServer,{
     cors:{
-        origin:"http://localhost:5173"
+        origin:"https://web-rtc-demo-pi.vercel.app"
     }
 })
  
@@ -130,4 +130,5 @@ const PORT = process.env.PORT || 5000;
 httpServer.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
  
