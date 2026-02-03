@@ -1,0 +1,58 @@
+{
+  "hash": "fbc0d414",
+  "configHash": "b56127ed",
+  "lockfileHash": "f57a7ae5",
+  "browserHash": "73c5af22",
+  "optimized": {
+    "react-countdown": {
+      "src": "../../node_modules/react-countdown/dist/index.es.js",
+      "file": "react-countdown.js",
+      "fileHash": "aedc9785",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "8e618553",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "02af615c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ec6643c5",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "c5118df6",
+      "needsInterop": true
+    },
+    "socket.io-client": {
+      "src": "../../node_modules/socket.io-client/build/esm/index.js",
+      "file": "socket__io-client.js",
+      "fileHash": "b103af0a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DUEDWNxO": {
+      "file": "chunk-DUEDWNxO.js",
+      "isDynamicEntry": false
+    },
+    "react-CMmQoc10": {
+      "file": "react-CMmQoc10.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-3nSoNJ2H": {
+      "file": "react-dom-3nSoNJ2H.js",
+      "isDynamicEntry": false
+    }
+  }
+}
